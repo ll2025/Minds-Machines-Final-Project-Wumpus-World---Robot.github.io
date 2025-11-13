@@ -28,3 +28,28 @@ ul li a:hover {
   background-color: #66CDAA;
   list-style-type: none;
 }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #181818;
+}
+
+.container div {
+  background-color: #C1E869;
+  border-radius: 10px;
+  height:90px;
+  width: 150px;
+  justify-content: center; /* Centers items horizontally */
+  align-items: baseline;
+  margin: 5px;
+  padding: 5px;
+  font-size: 24px;
+}
+a {
+  color: #fcfcfc;
+  text-decoration: none
+}
+h3 {
+  text-align:center;
+}
