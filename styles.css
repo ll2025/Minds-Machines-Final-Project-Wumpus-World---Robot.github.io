@@ -2,33 +2,6 @@ h5 {
   padding: 10px;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #C1E869;
-}
-
-ul li {
-  list-style-type: none;
-  float: left;
-}
-
-ul li a {
-  list-style-type: none;
-  display: flex;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-ul li a:hover {
-  background-color: #66CDAA;
-  list-style-type: none;
-}
-
 .container {
   display: flex;
   background-color: #181818;
@@ -48,6 +21,10 @@ ul li a:hover {
 a {
   color: #fcfcfc;
   text-decoration: none
+}
+a:hover {
+  background-color: #66CDAA;
+  list-style-type: none;
 }
 h3 {
   text-align:center;
