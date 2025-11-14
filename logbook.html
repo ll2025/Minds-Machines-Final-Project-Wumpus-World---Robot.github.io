@@ -3,15 +3,43 @@ layout: default
 title: Logbook
 ---
 <html>
-    <head>
-        <link href = "styles.css" rel = "stylesheet" type = "text/css"/>
-    </head>
-    <body>
-        <ul>
-            <li><h3><a href="index.html">Home Page</a></h3></li>
-            <li><h3><a href="about.html">About</a></h3></li>
-            <li><h3><a href="discussion.html">Discussion</a></h3></li>
-        </ul>
-        <h5>Test.</h5>
-    </body>
+  <head>
+  <style>
+.container {
+  display: flex;
+  background-color: transparent;
+  justify-content: center; /* Centers items horizontally */
+  align-items: center;
+}
+
+.container div {
+  background-color: #C1E869;
+  border-radius: 10px;
+  height:20px;
+  width: 110px;
+  justify-content: center; /* Centers items horizontally */
+  align-items: center;
+  text-align:center;
+  margin: 50px;
+  padding: 5px;
+  font-size: 24px;
+}
+a {
+  color: #fcfcfc;
+  text-decoration: none
+}
+h3 {
+  text-align:center;
+}
+</style>
+    <link href = "styles.css" rel = "stylesheet" type = "text/css"/>
+</head>
+<body>
+  <div class="container">
+ 	<div><h3><a href="index.html">Home Page</a></h3></div>
+  	<div><h3><a href="about.html">About</a></h3></div>
+  	<div><h3><a href="discussion.html">Discussion</a></h3></div>  
+  </div>
+    <h5>Welcome to the Home Page. Use the navigation bar above to go to the other pages.</h5>
+  </body>
 </html>
