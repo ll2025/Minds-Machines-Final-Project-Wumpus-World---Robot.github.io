@@ -1,45 +1,48 @@
 ---
 layout: default
-title: About
+title: About Us
 ---
-
 <html>
   <head>
   <style>
 .container {
-  display: flex;
+  display: inline-flex;
   background-color: transparent;
+  vertical-align: top;
   justify-content: center; /* Centers items horizontally */
-  align-items: center;
 }
 
-.container div {
+.container > div {
   background-color: #C1E869;
   border-radius: 10px;
-  height:20px;
-  width: 110px;
-  justify-content: center; /* Centers items horizontally */
+  height:30px;
+  width: 160px;
+  display: flex;
+  justify-content: center; 
   align-items: center;
-  text-align:center;
-  margin: 50px;
-  padding: 5px;
-  font-size: 24px;
+  margin: 30px;
+  padding: 0 15px;
+  font-size: 22px;
+}
+.container > div:hover {
+    background-color: #818282; /* Color change on hover */
+    cursor: pointer; /* OPTIONAL: Changes mouse cursor to a pointer */
 }
 a {
   color: #fcfcfc;
   text-decoration: none
 }
-h3 {
-  text-align:center;
+h5 {
+    text-align: center;
 }
 </style>
-    <link href = "styles.css" rel = "stylesheet" type = "text/css"/>
+    <!--<link href = "styles.css" rel = "stylesheet" type = "text/css"/>*/ -->
 </head>
 <body>
   <div class="container">
- 	<div><h3><a href="index.html">Home</a></h3></div>
-  	<div><h3><a href="logbook.html">Logbook</a></h3></div>
-  	<div><h3><a href="discussion.html">Discussion</a></h3></div>  
+ 	<div><a href="index.html">Home</a></div>
+  	<div><a href="logbook.html">Logbook</a></div>
+  	<div><a href="discussion.html">Discussion</a></div>  
   </div>
     <h5>Welcome to the About Us Page.</h5>
   </body>
