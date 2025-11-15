@@ -5,49 +5,69 @@ title: Discussion
 <html>
   <head>
   <style>
+<style>
+.header-bar {
+    display: flex;             
+    align-items: center;       
+    justify-content: space-between;
+    padding: 10px 30px;     
+}
+
+.page-title {
+    margin: 0;                
+    font-size: 28px;
+    color: #000;            
+}
+
+
 body {
-    margin: 0; 
-    padding: 0;
+    margin: 0; 
+    padding: 0;
 }
 .container {
-  display: inline-flex;
-  background-color: transparent;
-  vertical-align: top;
-  justify-content: center; /* Centers items horizontally */
+    /* Set margin to 0 so it aligns perfectly inside the header-bar */
+    margin: 0;
+    display: inline-flex;
+    background-color: transparent;
+    vertical-align: top;
 }
 
 .container > div {
-  background-color: #C1E869;
-  border-radius: 10px;
-  height:30px;
-  width: 160px;
-  display: flex;
-  justify-content: center; 
-  align-items: center;
-  margin: 30px;
-  padding: 0 15px;
-  font-size: 22px;
+  background-color: #C1E869;
+  border-radius: 10px;
+  height:30px;
+  width: 160px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin: 0 10px; 
+  padding: 0 15px;
+  font-size: 22px;
 }
 .container > div:hover {
-    background-color: #818282; /* Color change on hover */
-    cursor: pointer; /* OPTIONAL: Changes mouse cursor to a pointer */
+    background-color: #818282;
+    cursor: pointer;
 }
 a {
-  color: #fcfcfc;
-  text-decoration: none
+  color: #fcfcfc;
+  text-decoration: none
 }
 h5 {
-  margin-left: 30px;
+  margin-left: 30px;
 }
+</style>
 </style>
     <!--<link href = "styles.css" rel = "stylesheet" type = "text/css"/>*/ -->
 </head>
 <body>
-  <div class="container">
- 	<div><a href="index.html">Home</a></div>
-  	<div><a href="about.html">About Us</a></div>
-  	<div><a href="logbook.html">Logbook</a></div>  
-  </div>
+    <div class="header-bar">
+        <h1 class="page-title">Discussion</h1> <div class="container">
+            <div><a href="index.html">Home</a></div>
+            <div><a href="about.html">About Us</a></div>
+            <div><a href="logbook.html">Logbook</a></div>  
+        </div>
+    </div>
+    
     <h5>Welcome to the Discussion Page.</h5>
-  </body>
+</body>
 </html>
