@@ -51,7 +51,18 @@ h5 {
   background-color: #f2f2f2; 
   color: #333;
 }
+.logbook-table th:hover,
+.logbook-table td:hover {
+  background-color: #6A41B8; /* The requested hover color */
+  color: white;             /* Optional: Change text color for contrast */
+  cursor: pointer;          /* Optional: Change cursor to indicate interactivity */
+}
 
+/* Optional: Keep the header text visible against the dark hover color */
+.logbook-table th:hover {
+  color: white; 
+}
+/*
 .logbook-table tbody tr:hover {
   background-color: #f9f9f9;
-}
+}*/
