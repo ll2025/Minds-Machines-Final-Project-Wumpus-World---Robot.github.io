@@ -32,6 +32,12 @@ a {
 h5 {
   margin-left: 60px;
 }
+.center-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+}
 
 .logbook-table {
   /*display: block;*/
