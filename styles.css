@@ -33,7 +33,7 @@ h5 {
   margin-left: 60px;
 }
 body .logbook-table {
-  width: 90%; 
+  width: 100%; 
   margin-left: auto;
   margin-right: auto;
 }
@@ -42,7 +42,7 @@ body .logbook-table {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 100%;
   border-collapse: collapse;
 }
 
