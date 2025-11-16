@@ -32,3 +32,26 @@ a {
 h5 {
   margin-left: 30px;
 }
+
+
+.logbook-table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border-collapse: collapse;
+}
+
+.logbook-table th, .logbook-table td {
+  border: 1px solid #ddd; 
+  padding: 8px;
+  text-align: left;
+}
+
+.logbook-table th {
+  background-color: #f2f2f2; 
+  color: #333;
+}
+
+.logbook-table tbody tr:hover {
+  background-color: #f9f9f9;
+}
