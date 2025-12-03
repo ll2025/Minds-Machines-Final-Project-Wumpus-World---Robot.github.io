@@ -51,7 +51,7 @@ h5 {
 .logbook-table th, .logbook-table td {
   border: 1px solid #ddd; 
   padding: 8px;
-  text-align: center;
+  text-align: left;
 }
 
 .logbook-table th {
