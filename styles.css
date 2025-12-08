@@ -34,7 +34,7 @@ body {
   font-size: 22px;
 }
 .container > div:hover {
-    background-color: #818282; /* Color change on hover */
+    background-color: #6A41B8; /* Color change on hover */
     cursor: pointer; /* OPTIONAL: Changes mouse cursor to a pointer */
 }
 a {
